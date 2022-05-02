@@ -1,0 +1,177 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {  
+    position: absolute; 
+	left: 36%; 
+	
+}
+
+.head, 
+.left_arm, 
+.torso,  
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+    margin:50% 0px 0px 50px; 
+	height: 150px; 
+	border-radius: 200px 200px 0px 0px; 
+	margin-bottom: 10px; 
+
+} 
+
+.eyes {  
+
+	
+}
+
+.head:hover {
+	width: 250px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body {    
+	
+	width: 300px; 
+	height: 150px;   
+	display:flex;
+	justify-content: center; 
+
+
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(30deg); 
+	
+} 
+.right_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(-30deg); 
+	
+}
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	transition: all 1s;
+	
+} 
+.torso:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: scale(0.9);  
+	background-color: black;
+	
+}
+
+.lower_body {  
+	display:flex;
+	justify-content: center; 
+	width: 200px; 
+	height: 200px;
+}
+
+.left_leg {  
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px;
+	  
+	position: relative; 
+	top:50px; 
+	left: 10px;
+} 
+
+
+.right_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg); 
+	
+}
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(-20deg); 
+	
+}
+
+.right_leg {  
+
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px;
+	position: relative; 
+	top:50px;
+	left:80px;
+  } 
+  
+
+/*.left_eye , .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+
+} */
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	width: 20px; 
+	height: 20px; 
+	position: relative; 
+	top: 100px; 
+	left: 40px;  
+
+	border-radius: 15px;  
+	background-color: white; 
+} 
+
+.right_eye {  
+	width: 20px; 
+	height: 20px; 
+	position: relative; 
+	top: 80px; 
+	left: 100px;  
+	border-radius: 15px; 
+	background-color: white;  
+
+}
+
+
+
+
+
