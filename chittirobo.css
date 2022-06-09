@@ -1,11 +1,26 @@
-h1 {
+body {  
+	background: linear-gradient(to right,red,yellow);
+
+} 
+
+
+
+
+
+
+h2 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;  
+	font-size: 300%;  
+	margin-left:-5% ; 
+	margin-top: -5%; 
+	text-decoration: underline;
 }
 
 .robots {  
     position: absolute; 
 	left: 36%; 
+	top: 20px; ; 
 	
 }
 
@@ -14,7 +29,8 @@ h1 {
 .torso,  
 .right_arm, 
 .left_leg, 
-.right_leg {
+.right_leg {   
+	cursor: pointer;
 	 background-color: #5f93e8;
 }
 
@@ -89,7 +105,7 @@ h1 {
     -o-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     transform: scale(0.9);  
-	background-color: black;
+	background-color: rgb(202, 16, 16);
 	
 }
 
@@ -171,7 +187,12 @@ h1 {
 
 }
 
-
+#color1:hover {
+cursor: pointer;
+}
+#color2:hover {
+	cursor: pointer;
+	}
 
 
 
