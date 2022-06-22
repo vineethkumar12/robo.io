@@ -3,16 +3,7 @@ body {
 
 } 
 
-.android {
-	margin-top: 40%;
-margin-left: 190%;
-} 
-h1 {
 
- font: italic bold 30px serif;
- -webkit-text-fill-color:#383d52 ;
-
-}
 
 
 
@@ -21,7 +12,7 @@ h2 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;  
 	font-size: 300%;  
-	margin-left:70% ; 
+	margin-left:-5% ; 
 	margin-top: -5%; 
 	text-decoration: underline;
 }
